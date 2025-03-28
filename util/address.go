@@ -54,7 +54,7 @@ const (
 
 // Map from strings to Bech32 address prefix constants for parsing purposes.
 var stringsToBech32Prefixes = map[string]Bech32Prefix{
-	"kaspa":     Bech32PrefixKaspa,
+	"entropyx":  Bech32PrefixKaspa,
 	"kaspadev":  Bech32PrefixKaspaDev,
 	"kaspatest": Bech32PrefixKaspaTest,
 	"kaspasim":  Bech32PrefixKaspaSim,
